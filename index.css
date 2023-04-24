@@ -1,0 +1,239 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: gray;
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    background-color: #A9A9A9;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top: 1px solid #D3D3D3;
+    border-left: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+    box-shadow: 0px 2px #D3D3D3;
+}
+
+header img {
+    margin: 20px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+nav {
+    display: flex;
+    margin-top: 2px;
+    background-color: gray;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    list-style-type: none;
+    height: 100%;
+    width: 100vw;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+nav li {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+nav a:hover {
+    cursor: pointer;
+    background-color: #C0C0C0;
+    color: black;
+}
+
+main {
+    display: flex;
+    background-color: whitesmoke;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border-top: 2px solid #D3D3D3;
+    border-left: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+    box-shadow: 0px 2px #D3D3D3;
+}
+
+main#svc {
+    flex-flow: column;
+}
+
+img.ft {
+    margin-left: 80px;
+    border: 2px solid black;
+}
+
+img.fig {
+    height: 150px;
+    width: 150px;
+    background-color: whitesmoke;
+}
+
+figure.s {
+    background-color: #4F4F4F;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 5px;
+}
+
+figure.s figcaption {
+    background-color: #4F4F4F;
+    display: flex;
+    color: whitesmoke;
+    width: 150px;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+figure.s * {
+    margin-bottom: 10px;
+}
+
+figure.ctt {
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+    border: 1px solid black;
+}
+
+figure.ctt img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+figure.ctt a {
+    color: black;
+    text-decoration: none;
+}
+
+figure.ctt a:hover {
+    text-decoration: underline;
+    color: white;
+    text-shadow: 2px 2px #4F4F4F;
+}
+
+#insta {
+    background-color: whitesmoke;
+    border-radius: 12px;
+}
+
+img#me {
+    height: 300px;
+    border-radius: 20%;
+}
+
+img#projeto {
+    height: 300px;
+    border-radius: 100px;
+}
+
+ul#services {
+    font-size: large;
+    list-style-type: square;
+}
+
+ul#services li {
+    margin-bottom: 10px;
+}
+
+section#portf {
+    display: flex;
+    flex-flow: column;
+    background-color: whitesmoke;
+    width: 30%;
+}
+
+section#services {
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+main h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+section#portf h4 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    text-indent: 20px;
+    text-align: start;
+    font-size: 20px;
+}
+
+section#portf a {
+    font-size: large;
+    color: black;
+    width: fit-content;
+}
+
+section#portf a:hover {
+    color: blue;
+}
+
+footer {
+    display: flex;
+    background-color: #A9A9A9;
+    height: 5vh;
+    width: 100%;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top: 2px solid #D3D3D3;
+    border-bottom: 1px solid #D3D3D3;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer a {
+    color: #4F4F4F;
+    text-decoration: none;
+}
