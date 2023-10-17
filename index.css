@@ -234,6 +234,15 @@ footer {
 }
 
 footer a {
+    display: flex;
     color: #4F4F4F;
     text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
 }
